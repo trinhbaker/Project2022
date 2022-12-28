@@ -1,0 +1,371 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+    font-size: 1vw;
+}
+
+.boxcenter {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+    float: left;
+}
+
+.mb {
+    margin-bottom: 20px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mr {
+    margin-right: 2%;
+}
+
+.demo {
+    background-color: antiquewhite;
+    min-height: 100px;
+}
+
+.header {
+    background-color: #cdeec1db;
+    border: 1px #c2edf6 solid;
+    font-size: 1vw;
+    color: rgb(44, 125, 65);
+    border-radius: 5px;
+}
+
+.header h1 {
+    margin: 20px;
+    font-size: 2vw;
+}
+
+.menu {
+    background-color: #333;
+    color: #ccc;
+    font-size: 1vw; 
+}
+.menu ul{
+    padding-left: 15px;
+}
+
+.menu ul li {
+    display: inline;
+    list-style-type: none;
+    transition: 0.5s;
+   margin: 0px;
+}
+
+.menu ul li a:link {
+    color: #FFF;
+    text-decoration: none;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+}
+
+.menu ul li a:visited {
+    color: #FFF;
+}
+
+.menu ul li a:hover {
+    color: #81B101;
+    font-size: 1.2vw;
+    transition: 0.5s;
+}
+
+.boxtrai {
+    float: left;
+    width: 74%;
+}
+
+.boxphai {
+    float: left;
+    width: 24%;
+}
+
+.footer {
+    background-color: #cdeec1db;
+    border: 1px #c2edf6 solid;
+    font-size: 1vw;
+    color: #060909;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.boxtitle {
+    color: #333;
+    padding: 10px;
+    background-color: #eee;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px #ccc solid;
+}
+
+.boxcontent {
+    border-left: 1px #ccc solid;
+    border-right: 1px#ccc solid;
+    border-bottom: 1px #ccc solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    min-height: 200px;
+
+}
+
+.boxcontent img {
+    width: 20%;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+
+.boxcontent li a:link {
+    color: rgb(162, 162, 223);
+    text-decoration: none;
+}
+
+.boxcontent li a:link:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.boxcontent2 {
+    border-left: 1px #ccc solid;
+    border-right: 1px#ccc solid;
+    min-height: 200px;
+}
+
+.boxfooter {
+    padding: 10px;
+    background-color: #eee;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom: 1px #ccc solid;
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+}
+
+.boxfooter input[type='text'] {
+    border-radius: 3px;
+    border: 1px #eee solid;
+    padding: 5px;
+}
+
+.banner {
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.banner img {
+    height: 300px;
+    width: 60%;
+}
+
+.boxsp {
+    float: left;
+    width: 32%;
+    min-height: 150px;
+    border: 1px #eee solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.boxsp img {
+    height: 150px;
+    width: 100%;
+}
+
+.formtk {
+    line-height: 170%;
+    padding: 20px;
+
+}
+
+.formtk input[type="text"],
+.formcontent input[type="text"]{
+    width: 100%;
+    border: 1px #ccc solid;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.formtk input[type="password"] {
+    width: 100%;
+    border: 1px #ccc solid;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.formtk input[type="submit"] ,
+.formcontent input[type="submit"],
+.formcontent input[type="reset"],
+.formcontent input[type="button"]{
+    width: 100px;
+    padding: 5px 10px;
+    border: 1px #CCC solid;
+    border-radius: 2px;
+    background-color: #eee;
+}
+
+.formtk input[type="submit"]:hover,
+.formcontent input[type="submit"]:hover,
+.formcontent input[type="reset"]:hover,
+.formcontent input[type="button"]:hover {
+    background-color: rgb(162, 174, 170);
+}
+.menudoc ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+.menudoc ul li {
+    padding: 10px 20px;
+    border-bottom: 1px #ccc solid;
+}
+
+.menudoc ul li:hover {
+    background-color: #eee;
+}
+
+.menudoc ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.top {
+    border-bottom: 1px #ccc solid;
+    padding: 5px 10px;
+    float: left;
+}
+.top a{
+    color: #333;
+    text-decoration: none;
+}
+.top:hover{
+    background-color: #eee;
+}
+/*Admin*/
+.formtitle{
+        background-color: #d2e4cbdb;
+        border: 1px #c2edf6 solid;
+        color: rgb(35, 92, 50);
+        border-radius: 5px;
+        padding: 2px;
+    }
+.formtitle h1{
+    font-size: 1.2vw;
+    margin-left: 10px;
+
+}
+.formcontent{
+    padding: 20px 0px;
+}
+.danhmuc table {
+   width: 100%;
+   border-collapse: collapse;
+}
+.danhmuc table thead{
+    background-color:#d2e4cbdb ;
+
+}
+.danhmuc table th:nth-child(1) {
+   width: 10%;
+}
+.danhmuc table th:nth-child(2) {
+    width: 20%;
+}
+.danhmuc table th:nth-child(3) {
+    width: 50%;
+}
+.danhmuc table th:nth-child(4) {
+    width: 20%;}
+
+.danhmuc table td {
+    background-color: #f1f6eedb;
+    padding: 10px 20px;
+    border: 1px #ccc solid;
+}
+.danhmuc table tr:hover {
+    background-color: #ccc;
+}
+
+.danhmuc table td input[type="button"]{
+    margin-left: 10px;
+    width: 50px;
+    padding: 5px;
+    border: 1px #ccc solid;
+}
+.row textarea{
+    width: 100%;
+    resize: none;
+}
+
+
+
+
+
+.sanpham table td img{
+    width: 20px;
+    height: 50px;
+}
+.sanpham table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.sanpham table thead {
+    background-color: #d2e4cbdb;
+
+}
+
+.sanpham table th:nth-child(1) {
+    width: 3%;
+}
+
+.sanpham table th:nth-child(2) {
+    width: 17%;
+}
+
+.sanpham table th:nth-child(3) {
+    width: 20%;
+}
+
+.sanpham table th:nth-child(4) {
+    width: 15%;
+}
+.sanpham table th:nth-child(5) {
+    width: 10%;
+}
+.sanpham table th:nth-child(6) {
+    width: 15%;
+}
+.sanpham table th:nth-child(7) {
+    width: 20%;
+}
+.sanpham table td {
+    background-color: #f1f6eedb;
+    padding: 10px 20px;
+    border: 1px #ccc solid;
+}
+
+.sanpham table tr:hover {
+    background-color: #ccc;
+}
+
+.sanpham table td input[type="button"] {
+    margin-left: 0px;
+    width: 40px;
+    padding: 5px;
+    border: 1px #ccc solid;
+}
+.pagination li{
+    text-align: right;
+    display: inline;
+    text-decoration: none;
+    padding: 10px;
+}
